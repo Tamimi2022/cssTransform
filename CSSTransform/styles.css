@@ -1,0 +1,24 @@
+.batman {
+  position: relative;
+  top: 0;
+  left: 0;
+  animation-name: fly;
+  animation-duration: 5s;
+  animation-iteration-count: 6;
+  animation-delay: 0.5s;
+}
+
+.joker {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+@keyframes fly {
+  from {
+    transform: translatex(-200px) translateY(0px) rotate(0deg) scale(20px);
+  }
+  to {
+    transform: translateX(900px) translateY(450px) rotate(120deg) scale(400%);
+  }
+}
